@@ -1,7 +1,23 @@
 # Dev-Connecter-Course-Project
 
-cd Dev-Connecter-Course-Project ==>
+# change production.json file in config folder
+
+# this file is located in config/production.json
+
+# add uri of your mongodb connection for example
+
+ "mongoURI": "mongodb://localhost/dev-social",
+ 
+ 
+ # Install server dependencies
 npm install
 
-cd client ==>
+# Install client dependencies
+cd client
 npm install
+
+# Run both Express & React from root
+npm run dev
+ 
+ 
+ 
